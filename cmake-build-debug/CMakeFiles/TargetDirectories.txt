@@ -1,0 +1,3 @@
+C:/Users/Acer/CLionProjects/Interpreter_for_Programming_Languages_using_C/cmake-build-debug/CMakeFiles/LexicalAnalyzer_PLALiceGroup.dir
+C:/Users/Acer/CLionProjects/Interpreter_for_Programming_Languages_using_C/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Acer/CLionProjects/Interpreter_for_Programming_Languages_using_C/cmake-build-debug/CMakeFiles/rebuild_cache.dir

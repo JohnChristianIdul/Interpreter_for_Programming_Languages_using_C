@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "LexicalAnalyzer_PLALiceGroup",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "LexicalAnalyzer_PLALiceGroup::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LexicalAnalyzer_PLALiceGroup-Debug-018a6aef1211b0e656cf.json",
+					"name" : "LexicalAnalyzer_PLALiceGroup",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Acer/CLionProjects/Interpreter_for_Programming_Languages_using_C/cmake-build-debug",
+		"source" : "C:/Users/Acer/CLionProjects/Interpreter_for_Programming_Languages_using_C"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
