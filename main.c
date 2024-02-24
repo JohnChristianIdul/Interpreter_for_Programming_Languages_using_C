@@ -158,7 +158,7 @@ int main() {
     free(tokens); // Free memory allocated for tokens
 
     // Input 03
-    char lex_input02[MAX_LENGTH] = "int if else = v +c ";
+    char lex_input02[MAX_LENGTH] = "int if else=v+c ";
     printf("For Expression \"%s\":\n", lex_input02);
     tokens = lex(lex_input02);
     for (int i = 0; tokens[i].type != TOKEN_UNKNOWN; i++) {
@@ -167,10 +167,10 @@ int main() {
     }
     free(tokens); // Free memory allocated for tokens
 
-    // Input 03
-    char lex_input03[MAX_LENGTH] = "int if else = v +c \\ @ # / \\ \" \'";
-    printf("For Expression \"%s\":\n", lex_input03);
-    tokens = lex(lex_input03);
+    // Input 04
+    char lex_input04[MAX_LENGTH] = "\\ @ # / \\ \" \'";
+    printf("For Expression \"%s\":\n", lex_input04);
+    tokens = lex(lex_input04);
     for (int i = 0; tokens[i].type != TOKEN_UNKNOWN; i++) {
         printf("Token type: %d, Value: %s\n", tokens[i].type, tokens[i].value);
         free(tokens[i].value); // Free memory allocated for token value
